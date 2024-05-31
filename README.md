@@ -3,6 +3,7 @@
 This repo servers to better assist users with modifying the SV08 printer.<br>
 This repo also will eventually include guides that sovol declined to have made
 
+Im no longer Forking the original repo.
 
 # Contributing
 
