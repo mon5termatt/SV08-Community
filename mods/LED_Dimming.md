@@ -1,7 +1,7 @@
 # Fixing The LED's
 
-> [!NOTE]
-> THESE CHANGES HAVE BEEN IMPLEMENTED IN THE CODE SECTION OF THIS REPO.
+<!-- > [!NOTE]
+> THESE CHANGES HAVE BEEN IMPLEMENTED IN THE CODE SECTION OF THIS REPO. -->
 
 By default sovol broke their implementation of dimming the LED bar on the top of the printer.<br>When you have it set to a cycle time of 5 seconds it just doesnt work well.
 
@@ -26,7 +26,10 @@ By default sovol broke their implementation of dimming the LED bar on the top of
 # Fixing the menu. 
 #### No longer just a ON/OFF switch.
 
-> home/sovol/klipper/klippy/extras/display/menu.cfg
+> [!NOTE]
+> You need to either comment out the old menu lines and add below or edit it to look like the following.
+
+> /home/sovol/klipper/klippy/extras/display/menu.cfg
 
     [menu __main __tune __ledonoff]
     type: input

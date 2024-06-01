@@ -25,7 +25,7 @@ I accept this in either the form of a pull request or discussion. If you have th
 * [Image file (Follow the Reflashing Guide)](https://drive.google.com/drive/folders/10CdLCMd5jGHhtjPqmnJGEteK2nnGQku2?usp=sharing)
 * [Orcaslicer Profiles](https://drive.google.com/drive/folders/1KWjLxwpO_9_Xqi_f6qu84HRxZi26a_GN?usp=sharing)
 * [USB Files](https://drive.google.com/drive/folders/1MqC0QyXXDqqR__qIxysjTG5eevuNQv5i?usp=sharing)
-
+* [Support Videos](https://www.youtube.com/@sovol3dsupport/videos)
 
 # Unofficial Links
 
