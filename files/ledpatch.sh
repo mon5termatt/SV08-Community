@@ -73,7 +73,4 @@ echo "$new_content2" >> "$temp_file2"
 # Replace the original file with the modified content for the second replacement
 mv "$temp_file2" "$menu_cfg"
 
-echo "Content replaced successfully."
-
-echo "Lines in printer.cfg replaced successfully."
-echo "Content in menu.cfg replaced successfully."
+echo "Content in printer.cfg and menu.cfg replaced successfully."
