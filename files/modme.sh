@@ -69,50 +69,43 @@ process_file() {
     # Create a backup of the original file
     cp "$file_path" "$file_path.bak"
 
-    # Read the file and process the blocks
-    awk -v blocks="$(declare -p BLOCKS)" '
-    BEGIN {
-        eval("declare -A blk=" blocks)
-        for (key in blk) {
-            split(key, old_lines, "\n")
-            split(blk[key], new_lines, "\n")
-            block_data[key]["old"] = old_lines
-            block_data[key]["new"] = new_lines
-        }
-    }
-    {
-        found = 0
-        for (key in block_data) {
-            old_lines = block_data[key]["old"]
-            new_lines = block_data[key]["new"]
-            if ($0 == old_lines[1]) {
-                match = 1
-                for (i = 2; i <= length(old_lines); i++) {
-                    getline next_line
-                    if (next_line != old_lines[i]) {
-                        match = 0
-                        break
-                    }
-                }
-                if (match) {
-                    for (i = 1; i <= length(old_lines); i++) {
-                        print "# " old_lines[i]
-                    }
-                    for (i = 1; i <= length(new_lines); i++) {
-                        print new_lines[i]
-                    }
-                    found = 1
-                    break
-                }
-            }
-        }
-        if (!found) {
-            print
-        }
-    }' "$file_path" > "$file_path.tmp"
+    # Process each block
+    for old_block in "${!BLOCKS[@]}"; do
+        new_block="${BLOCKS[$old_block]}"
 
-    # Move the temporary file to the original file
-    mv "$file_path.tmp" "$file_path"
+        # Escape special characters for sed
+        old_block_escaped=$(echo "$old_block" | sed 's/[\/&]/\\&/g')
+        new_block_escaped=$(echo "$new_block" | sed 's/[\/&]/\\&/g')
+
+        # Comment out the old block and add the new block
+        awk -v old_block="$old_block" -v new_block="$new_block" '
+        BEGIN { split(old_block, old_lines, "\n"); split(new_block, new_lines, "\n") }
+        {
+            if (found) {
+                if ($0 == old_lines[block_line]) {
+                    print "# " $0
+                    block_line++
+                    if (block_line > length(old_lines)) {
+                        found = 0
+                        for (i in new_lines) print new_lines[i]
+                    }
+                } else {
+                    for (i = 1; i <= block_line; i++) print "# " old_lines[i]
+                    found = 0
+                    print
+                }
+            } else if ($0 == old_lines[1]) {
+                found = 1
+                block_line = 1
+                print "# " $0
+            } else {
+                print
+            }
+        }' "$file_path" > "$file_path.tmp"
+
+        mv "$file_path.tmp" "$file_path"
+    done
+
     echo "Processed $file_path and created a backup at $file_path.bak"
 }
 
