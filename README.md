@@ -33,6 +33,7 @@ I accept this in either the form of a pull request or discussion. If you have th
 * [SV08 Development Discord](https://discord.gg/NWy2JQPsaN)
 
 <!-- 
+# BLUE
 > [!NOTE]
 > Useful information that users should know, even when skimming content.
 
@@ -42,9 +43,11 @@ I accept this in either the form of a pull request or discussion. If you have th
 > [!IMPORTANT]
 > Key information users need to know to achieve their goal.
 
+# YELLOW
 > [!WARNING]
 > Urgent info that needs immediate user attention to avoid problems.
 
+# RED
 > [!CAUTION]
 > Advises about risks or negative outcomes of certain actions.
 
