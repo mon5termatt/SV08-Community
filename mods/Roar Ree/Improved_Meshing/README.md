@@ -1,17 +1,13 @@
 # Credits to [Roar Ree on FB](https://www.facebook.com/groups/6997076173737632/permalink/7222730737838840)
  
-
-    Here you go guys, improve your meshing & probing quality. Plus reduce your accelerations & movement speed to a more suitable level. Also extra bit to tie your two parts cooling fans together so you only need one fan command in sliced files. 
+Here you go guys, improve your meshing & probing quality. Plus reduce your accelerations & movement speed to a more suitable level.
     
 > [!NOTE]
 > Acceleration values are slow safe values & should be tuned by doing resonance testing on your own machine.
 
-
-
-
-
 > [!WARNING]
 > Ammend your values & comment out the stock ones, do not delete or replace full sections with these! Elements from the stock sections are still required.
+
 
     [printer]
     kinematics: corexy           
