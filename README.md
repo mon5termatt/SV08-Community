@@ -3,7 +3,7 @@
 This repo servers to better assist users with modifying the SV08 printer.<br>
 This repo also will eventually include guides that sovol declined to have made
 
-*Sovol basically told me that they will not be making any changes to their github. This makes me sad for the community and its really not how open-source should work. Its disrespectful to the open souce community....*
+*Sovol basically told me that they will not be making any changes to their github. This makes me sad for the community and its really not how open-source should work. Its disrespectful to the open source community....*
 
 > [!NOTE]
 > This repo no longer contains the source code of the printer. keeping up with the changes that sovol is making would require too much effort on my part. 
