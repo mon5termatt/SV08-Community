@@ -21,7 +21,8 @@ This repo also will eventually include guides that sovol declined to have made
 | Guides | Instructions for common issues |
 | Mods | User Modifications |
 
-
+# Other Useful Links
+https://github.com/adepssimius/everything-sovol-sv08
 
 
 # Contributing
