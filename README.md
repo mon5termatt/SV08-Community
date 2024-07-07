@@ -25,9 +25,6 @@ This repo also will eventually include guides that sovol declined to have made
 
 | Creator | Mod title | Description | Difficulty
 | --- | --- | --- | --- |
-<!--
-| *creator_name* | [*Mod Title*](./mods/creator_here/mod_folder_name) | *Example description (short).* |:green_heart::blue_heart::heart:
--->
 | Awabom | [Info](./mods/Awabom) | Some Basic Changes Made to the printer| :green_heart:
 | Corodius | [Panels](./mods/Corodius/Panels) | Basic DXF Panels | :green_heart:
 | Corodius | [Doors](./mods/Corodius/Doors) | *COMING SOON!* | :green_heart:
@@ -38,6 +35,9 @@ This repo also will eventually include guides that sovol declined to have made
 | Roar Ree | Pause Macro | Improved Pause Macro. No 95mm purge | :green_heart: |
 | Rappetor | [Mainline Klipper](https://github.com/Rappetor/Sovol-SV08-Mainline) | Run mainline klipper on your SV08 | :heart: |
 
+<!--
+| *creator_name* | [*Mod Title*](./mods/creator_here/mod_folder_name) | *Example description (short).* |:green_heart::blue_heart::heart:
+-->
 
 # Contributing
 
