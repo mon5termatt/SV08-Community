@@ -9,3 +9,4 @@
 | Roar Ree | Improved Meshing | Improve your meshing & probing quality. | :green_heart: |
 | Roar Ree | Multifan | Combine the cooling fans to make it easier to control | :green_heart: |
 | Roar Ree | Pause Macro | Improved Pause Macro. No 95mm purge | :green_heart: |
+| Rappetor | [Mainline Klipper](https://github.com/Rappetor/Sovol-SV08-Mainline) | Run mainline klipper on your SV08 | :heart: |
