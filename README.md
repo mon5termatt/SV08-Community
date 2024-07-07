@@ -25,7 +25,9 @@ This repo also will eventually include guides that sovol declined to have made
 
 | Creator | Mod title | Description | Difficulty
 | --- | --- | --- | --- |
+<!--
 | *creator_name* | [*Mod Title*](./mods/creator_here/mod_folder_name) | *Example description (short).* |:green_heart::blue_heart::heart:
+-->
 | Awabom | [Info](./mods/Awabom) | Some Basic Changes Made to the printer| :green_heart:
 | Corodius | [Panels](./mods/Corodius/Panels) | Basic DXF Panels | :green_heart:
 | Corodius | [Doors](./mods/Corodius/Doors) | *COMING SOON!* | :green_heart:
@@ -43,6 +45,9 @@ I am more then willing to add in any mods that you feel will improve the overall
 
 I accept this in either the form of a pull request or discussion. If you have the ability and know your way around github a pull request is a lot easier for me to merge. however if you just have a vauge idea of what you want added please leave a comment in the form of a [discussion topic.](https://github.com/mon5termatt/SV08-Community/discussions)
 
+# Other Useful repos
+
+* [everything-sovol-sv08](https://github.com/adepssimius/everything-sovol-sv08)
 
 # Official Links
 
