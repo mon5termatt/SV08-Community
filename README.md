@@ -21,8 +21,20 @@ This repo also will eventually include guides that sovol declined to have made
 | Guides | Instructions for common issues |
 | Mods | User Modifications |
 
-# Other Useful SV08 Repos
-https://github.com/adepssimius/everything-sovol-sv08
+# Mods
+
+| Creator | Mod title | Description | Difficulty
+| --- | --- | --- | --- |
+| *creator_name* | [*Mod Title*](./mods/creator_here/mod_folder_name) | *Example description (short).* |:green_heart::blue_heart::heart:
+| Awabom | [Info](./mods/Awabom) | Some Basic Changes Made to the printer| :green_heart:
+| Corodius | [Panels](./mods/Corodius/Panels) | Basic DXF Panels | :green_heart:
+| Corodius | [Doors](./mods/Corodius/Doors) | *COMING SOON!* | :green_heart:
+| MON5TERMATT | [LED Dimming](./mods/MON5TERMATT/LED_DIMMING) | Make the LED bar dimmible | :green_heart: |
+| Nadir | Coming Soon | Coming Soon | :black_heart: |
+| Roar Ree | Improved Meshing | Improve your meshing & probing quality. | :green_heart: |
+| Roar Ree | Multifan | Combine the cooling fans to make it easier to control | :green_heart: |
+| Roar Ree | Pause Macro | Improved Pause Macro. No 95mm purge | :green_heart: |
+| Rappetor | [Mainline Klipper](https://github.com/Rappetor/Sovol-SV08-Mainline) | Run mainline klipper on your SV08 | :heart: |
 
 
 # Contributing
