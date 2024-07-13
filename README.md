@@ -12,7 +12,7 @@ This repo also will eventually include guides that sovol declined to have made
 > [!CAUTION]
 > Sovol will NOT give you support if you modify ANY files on your printer. this includes tuning. before you email sovol for support you must follow the factory reset guide or [Re-flash the EMMC](guides/EMMC_Reflash_Guide.md).
 
-
+<!--
 # Table Of Contents
 
 | Folder name   | Description    |
@@ -20,7 +20,7 @@ This repo also will eventually include guides that sovol declined to have made
 | Files | Stuff for the repo |
 | Guides | Instructions for common issues |
 | Mods | User Modifications |
-
+-->
 # Mods
 
 | Creator | Mod title | Description | Difficulty
