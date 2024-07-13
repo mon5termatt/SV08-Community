@@ -28,6 +28,7 @@ This repo also will eventually include guides that sovol declined to have made
 | Awabom | [Info](./mods/Awabom) | Some Basic Changes Made to the printer| :green_heart:
 | Corodius | [Panels](./mods/Corodius/Panels) | Basic DXF Panels | :green_heart:
 | Corodius | [Doors](./mods/Corodius/Doors) | *COMING SOON!* | :green_heart:
+| Corodius | [Mainsail Theme](https://github.com/Corodius/mainsail-theme-sovol) | Sovol Mainsail theme | :green_heart:
 | MON5TERMATT | [LED Dimming](./mods/MON5TERMATT/LED_DIMMING) | Make the LED bar dimmible | :green_heart: |
 | Rappetor | [Mainline Klipper](https://github.com/Rappetor/Sovol-SV08-Mainline) | Run mainline klipper on your SV08 | :heart: |
 | Roar Ree | [Improved Meshing](./mods/Roar_Ree/Improved_Meshing) | Improve your meshing & probing quality. | :green_heart: |
