@@ -47,6 +47,8 @@ I accept this in either the form of a pull request or discussion. If you have th
 
 # Other Useful repos
 
+* [sovol-SV08-from-scratch](https://github.com/eric-s-raymond/sovol-SV08-from-scratch)
+
 * [everything-sovol-sv08](https://github.com/adepssimius/everything-sovol-sv08)
 
 # Official Links
